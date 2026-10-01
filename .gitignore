@@ -1,0 +1,35 @@
+# Dependencias
+node_modules/
+
+# Sistema y editores
+.DS_Store
+Thumbs.db
+desktop.ini
+*.lnk
+
+# Entornos
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# Build / caché
+dist/
+build/
+.cache/
+.parcel-cache/
+.vite/
+
+# Git
+*.tmp
+*.bak
+*.orig
+.merge_lock*
+
+# Herramientas locales
+*.ps1
+!scripts/*.ps1
